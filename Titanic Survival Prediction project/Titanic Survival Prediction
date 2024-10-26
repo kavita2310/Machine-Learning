@@ -1,2 +1,1 @@
-###  Titanic Survival Prediction (Machine Learning)
- This project aims to predict survival person based on historical data and various influencing factors such as  Passenger  id,  Survived,<br> p class,  sex, Age, sibsp, parch, ticket, fare, cabin, embarked.. The goal  is to develop machine learning model that can accurately forecast survival person  to help the prediction  make informed decisions and survival person.  
+
