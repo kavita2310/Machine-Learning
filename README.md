@@ -13,30 +13,33 @@ Flight ticket prices fluctuate based on several variables, including travel seas
 •	Compare model perfomance to select the best approach for price prediction.<br>
 
 # Data Set
-The dataset use for this project contains information such as:
-.   Airline: IndiGo,Air India,Jet Airways,SpiceJet,Multiple carriers,GoAir,Vistara,Air Asia,ect.
-.   Date of Journey: The day on which the journey begins.
-.   Source: A person where something comes.(Banglore,Kolkata,Delhi,etc)
-.   Destination: The place where person is going.(Kolkata,Munbai,Cochin,etc)
-.   Route: A way from one place to another.
-.   Departure time: The time at which a public conveyance is scheduled to depart from a given point of origin. 
-.   Arrival time: The time when a person  scheduled to arrive at a destination, or has arrived.
-.   Duration: How long its flight.
-.   Total stops: How mant stop they have.
-.   Additional_Info: What kind they have extra imformation.
-.   Price: Price of the fight they pay.
+The dataset use for this project contains information such as:<br>
+•	Airline: IndiGo,Air India,Jet Airways,SpiceJet,Multiple carriers,GoAir,Vistara,Air Asia,etc.<br>
+•	Date of Journey: The day on which the journey begins.<br>
+•	Source: A person where something comes.(Banglore,Kolkata,Delhi,etc)<br>
+•	Destination: The place where person is going.(Kolkata,Munbai,Cochin,etc)<br>
+•	Route: A way from one place to another.<br>
+•	Departure time: The time at which a public conveyance is scheduled to depart from a given point of origin.<br>
+•	Arrival time: The time when a person  scheduled to arrive at a destination, or has arrived.<br>
+•	Duration: How long its flight.<br>
+•	Total stops: How mant stop they have.<br>
+•	Additional_Info: What kind they have extra imformation.<br>
+•	Price: Price of the fight they pay.<br>
+
 # Technologies used:
-.  Pandas and NumPy: For data manipulating and processing.
-.  Matplotlib and Seabone for data visualization and analysis.
-.  Machine Learning: Evaluate multiple machine learning models.
-.  Python used for data analysis and model building.
+•	Pandas and NumPy: For data manipulating and processing.<br>
+•	Matplotlib and Seabone for data visualization and analysis.<br>
+•	Machine Learning: Evaluate multiple machine learning models.<br>
+•	Python used for data analysis and model building.<br>
+
 
 # Model Evaluation Metrics:
+•	Score: The goodness of fit.<br>
+•	Bar graph: What columns are very important.<br>
+•	Root mean squared error(RMSE): To meassure prediction error.<br>
+•	Mean Absolute Error(MEA): To assume prediction accuracy.<br>
 
-. Score: The goodness of fit.
-. Bar graph: What columns are very important.
-. Root mean squared error(RMSE): To meassure prediction error.
-. Mean Absolute Error(MEA): To assume prediction accuracy. 
+
 
 
 
