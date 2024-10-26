@@ -7,10 +7,11 @@ This project aims to predict Flight Fare Price Prediction based on historical da
 Flight ticket prices fluctuate based on several variables, including travel season, demand, time before departure and other factors. This project explores various machine learning algorithms to predict flight prices and provides insights into which features are most important in influencing prices.
 
 # Key Anaiysis Performed:
-.    Collect and clean historical fight data, including ticket price,routes and additional_info.
-.    Identify key features affecting price fluctuations.
-.    Build and evaluate multiple machine learning models to predict flight prices.
-.    Compare model perfomance to select the best approach for price prediction.
+•	Collect and clean historical fight data, including ticket price,routes and additional_info.
+•	Identify key features affecting price fluctuations.
+•	Build and evaluate multiple machine learning models to predict flight prices.
+•	Compare model perfomance to select the best approach for price prediction.
+
 # Data Set
 The dataset use for this project contains information such as:
 .   Airline: IndiGo,Air India,Jet Airways,SpiceJet,Multiple carriers,GoAir,Vistara,Air Asia,ect.
