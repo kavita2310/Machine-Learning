@@ -1,6 +1,6 @@
 <h1>Laptop Price Prediction Analysis</h1>
 
-    The dataset at hand provides a comprehensive compilation of
+The dataset at hand provides a comprehensive compilation of
 information concerning a diverse array of laptops, encompassing a
 spectrum of specifications and corresponding prices. Crafted with
 the aim of facilitating sales price prediction, this dataset offers
@@ -8,6 +8,7 @@ invaluable insights into the intricate details of laptops, ranging from
 processor specifications to display attributes. 
 
 Project  overview:<br>
+
 Develop a machine learning model to analyze Laptop price prediction, 
 rating and recommend laptop based on user preferences. 
 This project explores various machine learning algorithms to 
