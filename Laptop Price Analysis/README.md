@@ -9,7 +9,10 @@ processor specifications to display attributes.
 
 Project  overview:<br>
 
-          Develop a machine learning model to analyze Laptop price prediction, rating and recommend laptop based on user preferences. This project explores various machine learning algorithms to predict Laptop price and provides insights into which features are most important in influencing prices.
+          Develop a machine learning model to analyze Laptop price prediction, 
+          rating and recommend laptop based on user preferences. 
+          This project explores various machine learning algorithms to 
+          predict Laptop price and provides insights into which features are most important in influencing prices.
           
 Key Analysis Performed:<br>
 
