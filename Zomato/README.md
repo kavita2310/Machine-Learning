@@ -1,4 +1,4 @@
-<h1>Zomato Data Analysis</h1>h1>
+<h1>Zomato Data Analysis</h1>
 
 This project we have name, online order, book table, rate, votes, approx cost(for two people), listed in(type). 
 The goal is to developed machine learning models build and evaluate to predict key metrics and trends. 
