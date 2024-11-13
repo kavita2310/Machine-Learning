@@ -31,7 +31,7 @@ The dataset use for this project contains information such as:<br>
 •	.Python used for data analysis and model building.<br>
 
 # Model Evaluation Metrics:
-•	Bar graph: What columns are very important.<br>
+•	Bar graph: Which columns are very important.<br>
 •	Root mean squared error(RMSE): To measure prediction error.<br>
 •	Mean Absolute Error(MEA): To assume prediction accuracy.<br>
 # Insights and Findings:
