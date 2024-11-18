@@ -7,14 +7,14 @@ the aim of facilitating sales price prediction, this dataset offers
 invaluable insights into the intricate details of laptops, ranging from
 processor specifications to display attributes. 
 
-Project  overview:<br>
+<h1>Project  overview:</h1>
 
 Develop a machine learning model to analyze Laptop price prediction, 
 rating and recommend laptop based on user preferences. 
 This project explores various machine learning algorithms to 
 predict Laptop price and provides insights into which features are most important in influencing prices.
           
-Key Analysis Performed:<br>
+<h1>Key Analysis Performed:</h1>
 
 •	Collect and clean historical processor generation, cores per processor, RAM type, Graphics brand.<br> 
 •	Identify key features affecting price fluctuations.<br>
@@ -23,13 +23,13 @@ Key Analysis Performed:<br>
 •	Find outliers present in the dataset.<br>
 •	using appropriate scaling techniques.<br>
 
-Data Set<br>
+<h1>Data Set:</h1>
 
 •	Name: Name of the laptop model.<br>
 •	Brand: Brand of the laptop.<br>
 •	Price: Price of the laptop.<br>
 •	Rating: Rating of the laptop.<br>
-•	 Processor brand: Brand of the laptop’s processor.<br>
+•	Processor brand: Brand of the laptop’s processor.<br>
 •	Processor gen: Generation of the laptop’s processor.<br>
 •	Core per processor: Number of cores per processor.<br>
 •	Energy Efficient Units: Indicates if the laptop has energy-efficient units.<br>
@@ -44,20 +44,20 @@ Data Set<br>
 •	Touch screen: Indicates if the laptop has a touch screen.<br>
 •	Operating system: Operating system of the laptop.<br>
 
-Technologies used:<br>
+<h1>Technologies used:</h1>
 
 •	Pandas and NumPy: For data manipulating and processing.<br>
 •	Matplotlib and Seabone for data visualization and analysis.<br>
 •	Machine Learning: Evaluate multiple machine learning models.<br>
 •	Python used for data analysis and model building.<br>
 
-Model Evaluation Metrics:<br>
+<h1>Model Evaluation Metrics:</h1>
 
 •	Heat map: Which columns are very important.<br>
 •	Root mean squared error(RMSE): To measure prediction error.<br>
 •	Mean Absolute Error(MEA): To assume prediction accuracy.<br>
 
-Insights and Findings:<br>
+<h1>Insights and Findings:</h1>
 
 •	According to Price the most effected columns is Processor generation, RAM type, Storage type.<br>
 •	R2 score is 99%.<br>
