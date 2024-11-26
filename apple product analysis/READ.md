@@ -5,8 +5,7 @@ This project aims to predict apple product analysis based on historical data and
  <h1>Project Overview:</h1>
 
 Apple Product Price  fluctuate based on several variables, including discount percentage. 
-This project explores Python library Plotly. Plotly library  to analysis  prices and discount percentage  
-provides insights into which features are most important in influencing prices. 
+This project explores Python library Plotly. Plotly library  to analysis  prices and discount percentage provides insights into which features are most important in influencing prices. 
 
  <h1>Key Analysis Performed:</h1>
  
