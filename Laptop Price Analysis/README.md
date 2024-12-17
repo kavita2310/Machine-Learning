@@ -1,49 +1,44 @@
-<h1>Laptop Price Prediction Analysis</h1>
+<h1>Laptop Price Prediction</h1>
 
-The dataset at hand provides a comprehensive compilation of
-information concerning a diverse array of laptops, encompassing a
-spectrum of specifications and corresponding prices. Crafted with
-the aim of facilitating sales price prediction, this dataset offers
-invaluable insights into the intricate details of laptops, ranging from
-processor specifications to display attributes. 
+This project aims to predict Laptop Price Prediction based on data and various influencing factors such as Name, Brand, Processor gen, Core per processor, Price, Rating, Processor brand, Energy efficient. The goal is to developed machine learning model that can accurately forecast Laptop price to help purchase make informed decisions.
 
-<h1>Project  overview:</h1>
+ <h1>Project Overview:</h1>
 
-Develop a machine learning model to analyze Laptop price prediction, 
-rating and recommend laptop based on user preferences. 
-This project explores various machine learning algorithms to 
-predict Laptop price and provides insights into which features are most important in influencing prices.
-          
-<h1>Key Analysis Performed:</h1>
+Laptop prices fluctuate based on several variables, including Brand, RAM GB, RAM type, Storage capacity GB and other factors. This project explores various machine learning algorithms to predict Laptop prices and provides insights into which features are most important in influencing prices.
 
-•	Collect and clean historical processor generation, cores per processor, RAM type, Graphics brand.<br> 
+ <h1>Key Analysis Performed:</h1>
+ 
+Data Collection and Pre processing:<br>
+•	Data Collection: The first step is gathering data related to laptops. This data could come from online sources such as:<br>
+o	Scraping e-commerce websites (Amazon, Flipkart, etc.)<br>
+o	Open datasets (Kaggle, etc.)<br>
+•	Data cleaning: clean Laptop price prediction processor gen, Core per processor, RAM type, Graphics brand and additional info.<br>
 •	Identify key features affecting price fluctuations.<br>
-•	Build and evaluate multiple machine learning models to predict Laptop prices.<br>
+•	Build and evaluate multiple machine learning models to predict flight prices.<br>
 •	Compare model performance to select the best approach for price prediction.<br>
-•	Find outliers present in the dataset.<br>
-•	using appropriate scaling techniques.<br>
 
-<h1>Data Set:</h1>
-
-•	Name: Name of the laptop model.<br>
-•	Brand: Brand of the laptop.<br>
-•	Price: Price of the laptop.<br>
-•	Rating: Rating of the laptop.<br>
-•	Processor brand: Brand of the laptop’s processor.<br>
-•	Processor gen: Generation of the laptop’s processor.<br>
-•	Core per processor: Number of cores per processor.<br>
-•	Energy Efficient Units: Indicates if the laptop has energy-efficient units.<br>
-•	RAM GB: RAM capacity of the laptop in gigabytes.<br>
-•	RAM type: Type of RAM.<br>
-•	Storage capacity GB: Storage capacity of the laptop in gigabytes.<br>
-•	Storage type: Type of storage.<br>
-•	Graphics brand: Brand of the laptop’s graphics.<br>
-•	Display size inches: Size of the laptop’s display in inches.<br>
-•	Horizontal pixel: Number of horizontal pixels.<br>
-•	Vertical pixel: Number of vertical pixels.<br>
-•	Touch screen: Indicates if the laptop has a touch screen.<br>
-•	Operating system: Operating system of the laptop.<br>
-
+ <h1>Data Set:</h1>
+ 
+The dataset use for this project contains information such as:<br>
+•	Name: Laptop name.<br>                   
+•	Brand: Laptop brand name.<br>                   
+•	Price: Laptop price.<br>                  
+•	 Rating: Laptop rating.<br>             
+•	 Processor brand: Laptop processor brand name.<br>          
+•	 Processor generation: Laptop processor generation name.<br>         
+•	 Core per processor: Laptop core per processor name.<br>      
+•	 Energy Efficient Units: Laptop energy efficient.<br> 
+•	 RAM GB: Laptop RAM GB.<br>                  
+•	 RAM type: Laptop RAM type.<br>            
+•	 Storage capacity GB: Laptop storage capacity GB.<br>    
+•	 Storage type: Laptop storage type.<br>        
+•	 Graphics brand: Laptop graphics brand.<br>        
+•	 Display size inches: Laptop display size inches.<br>   
+•	 Horizontal pixel: Laptop horizontal pixel.<br>       
+•	 Vertical pixel: Laptop vertical pixel.<br>         
+•	 Touch screen: Laptop touch screen.<br>        
+•	 Operating system: Laptop operating system.<br>      
+	
 <h1>Technologies used:</h1>
 
 •	Pandas and NumPy: For data manipulating and processing.<br>
@@ -51,18 +46,28 @@ predict Laptop price and provides insights into which features are most importan
 •	Machine Learning: Evaluate multiple machine learning models.<br>
 •	Python used for data analysis and model building.<br>
 
-<h1>Model Evaluation Metrics:</h1>
-
-•	Heat map: Which columns are very important.<br>
-•	Root mean squared error(RMSE): To measure prediction error.<br>
-•	Mean Absolute Error(MEA): To assume prediction accuracy.<br>
+ <h1>Model Evaluation Metrics:</h1>
+ 
+1)  Handling Categorical Features: Categorical data (such as name, brand, processor brand, ram type, etc) needs to be converted into numerical data using methods like:<br>
+	One-Hot Encoding<br>
+	Label Encoding<br>
+2)	Feature Scaling: Standardize features such as price and RAM type for better model performance.<br>
+3)	Feature Selection: Use statistical methods or model-based techniques (like Linear regression, Random forest, etc) to select important features and eliminate irrelevant ones.<br>
+4)	Splitting data: Split the dataset into training and testing sets (typically 70-80% for training and 20-30% for testing) using train_test_split().<br>
+5)	Mean squared error(RMSE): To measure prediction error.<br>
+6)	Mean Absolute Error(MEA): To assume prediction accuracy.<br>
+7)	R2_Score: To measure that provides information about the goodness of fit of a model.<br>
 
 <h1>Insights and Findings:</h1>
 
-•	According to Price the most effected columns is Processor generation, RAM type, Storage type.<br>
-•	R2 score is 99%.<br>
-•	Mean absolute error is 750.09.<br>
-•	Model: Random Forest Regresion.<br>
-•	Accuracy: 99% <br>
+1)	Project Conclusion: The Laptop price prediction project using RANDOM FOREST REGRESSOR has achieved impressive results.<br>
+2)	Mean Absolute Error(MAE): 750.09822 indicating that the model’s predictions are on average within 750 units of the actual price.<br>
+3)	Mean Squared Error(MSE): 1055960.6861 indicating that the model’s predictions have a moderate amount of variance.<br>
+4)	R2 Score: 0.9995 indicating that the model explains approximately 99.95% of the variance in the target variable of laptop price.<br>
+5)	Training Set: The model has achieved an R2 score of 0.9997 on the training set indicating excellent fit.<br>
+6)	Testing Set: The model has achieved an R2 score of 0.9848 on the testing set indicating good generalization.<br>
 
+<h1>Conclusion:</h1>
 
+The Random Forest Regressor model has demonstrated exceptional performance in prediction in predicting laptop price.<br>
+The model’s high R2 score and low MAE indicate prices based on the provided feature.<br>
